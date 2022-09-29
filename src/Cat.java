@@ -17,7 +17,10 @@ public class Cat {
     public void introduce() {
         System.out.print("Hello my name is " + name);
         if (age >= 7){
-            System.out.print("and i am an older cat");
+            System.out.println(" and i am an older cat");
+        }
+        else {
+            System.out.println(" and i am a younger cat");
         }
     }
 
